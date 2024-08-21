@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Carro bmwAzul = new Carro("i4", "BMW", 2020, "Azul");
+        Carro bmwAzul = new Carro("i4", "BMW", 2020, "Azul",300,214.41,250);
         System.out.println(bmwAzul);
 
         Carro hondaCivic = new Carro();
@@ -14,5 +14,7 @@ public class Main {
         hondaCivic.modelo = "Civic LTS";
         System.out.println(hondaCivic);
 
+        bmwAzul.acelerando();
+        bmwAzul.freiando();
     }
 }
