@@ -1,9 +1,9 @@
 package ex017;
 
 public class Animal {
-    String especie;
-    int idade;
-    double peso;
+    private String especie;
+    private int idade;
+    private double peso;
 
     void alimentar() {
         System.out.println("Alimentando o animal.");
